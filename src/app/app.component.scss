@@ -1,0 +1,28 @@
+.wrap-login100 {
+    padding: 100px;
+}
+
+.login100-pic img {
+    object-fit: contain;
+}
+
+:host ::ng-deep {
+    .mat-select-placeholder {
+        color: #999999;
+    }
+
+    .mat-select-value {
+        color: black;
+    }
+}
+
+button:disabled {
+    color: #999999;
+    background-color: #babfc4;
+}
+
+@media (max-width: 992px) {
+    .login100-pic {
+        width: 100%;
+    }
+}
